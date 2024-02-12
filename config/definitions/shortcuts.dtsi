@@ -50,6 +50,7 @@
     SHORTCUT(xiv_fish_log, &macro_tap &kp W)
     SHORTCUT(xiv_fish_guide, &macro_tap &kp V)
     SHORTCUT(xiv_food, &macro_tap &kp LA(LC(LS(F))))
+    SHORTCUT(xiv_chara, &macro_tap &kp LA(LC(LS(K))))
     SHORTCUT(xiv_sheathe, &macro_tap &kp LA(LC(LS(PERIOD))))
     SHORTCUT(xiv_return, &macro_tap &kp LC(R))
     SHORTCUT(xiv_mount, &macro_tap &kp LS(V))
