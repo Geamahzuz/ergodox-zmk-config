@@ -6,7 +6,7 @@
 &mt {
   tapping-term-ms = <TAPPING_TERM>;
   flavor = "tap-preferred";
-  quck-tap-ms = <QUICK_TAP_TERM>;
+  quick-tap-ms = <QUICK_TAP_TERM>;
 };
 
 &lt {
