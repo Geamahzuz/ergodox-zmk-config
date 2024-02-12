@@ -4,6 +4,7 @@
 #include <dt-bindings/zmk/outputs.h>
 
 #include "./definitions/config.dtsi"
+#include "./definitions/shortcuts.dtsi"
 
 //Layer Definitions
 #define DVORAK 0
@@ -53,8 +54,8 @@
 		  label = "FFXIV";
 			bindings = <
 				&bootloader
-				&lt FFXIVII ESCAPE &trans           &trans       &trans           &trans &trans &kp LA(LS(LC(F10))) &kp NUMBER_7  &kp NUMBER_8 &kp NUMBER_9 &kp NUMBER_0 &kp F7 &kp F8 &kp F9
-				&trans             &kp SINGLE_QUOTE &kp COMMA    &kp PERIOD       &kp P  &kp Y  &kp LA(LS(LC(Y)))   &trans        &kp F        &kp G        &kp C        &kp R  &kp L  &kp F10
+				&lt FFXIVII ESCAPE &trans           &trans       &trans           &trans &trans &xiv_sprint         &kp NUMBER_7  &kp NUMBER_8 &kp NUMBER_9 &kp NUMBER_0 &kp F7 &kp F8 &kp F9
+				&trans             &kp SINGLE_QUOTE &kp COMMA    &kp PERIOD       &kp P  &kp Y  &xiv_y_act          &trans        &kp F        &kp G        &kp C        &kp R  &kp L  &kp F10
 				&kp BACKSPACE      &kp A            &kp O        &kp E            &kp U  &kp I                                    &kp D        &kp H        &kp T        &kp N  &kp S  &trans
 				&kp LEFT_SHIFT     &kp SEMICOLON    &kp Q        &kp J            &kp K  &kp X  &kp F1              &kp F11       &kp B        &kp M        &kp W        &kp V  &kp Z  &kp MINUS
 				&kp LEFT_CONTROL   &kp GRAVE        &kp LEFT_ALT &kp LEFT_BRACKET &kp RIGHT_BRACKET                                            &trans       &trans       &trans &trans &to DVORAK

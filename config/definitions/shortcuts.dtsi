@@ -21,15 +21,16 @@
     bindings = <&kp>, <BINDINGS>;		      \
   };
   */
-  
+
   shortcuts {
 
     // General
     //SHORTCUT(hyp, &kp LA(LC(LS(LGUI))))
-    
+
     // FFXIV
 
     SHORTCUT(xiv_sprint, &macro_tap &kp LA(LC(LS(F10))))
+    SHORTCUT(xiv_y_act, &macro_tap &kp LA(LC(LS(Y))))
     SHORTCUT(xiv_inv, &macro_tap &kp NUMBER_7)
     SHORTCUT(xiv_armory, &macro_tap &kp NUMBER_8)
     SHORTCUT(xiv_saddle, &macro_tap &kp NUMBER_9)
