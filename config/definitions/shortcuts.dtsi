@@ -1,0 +1,57 @@
+/ {
+#define SHORTCUT(NAME, BINDINGS)		\
+  NAME: NAME {					\
+    compatible = "zmk,behavior-macro";		\
+    label = ZMK_MACRO_STRINGIFY(NAME);		\
+    #binding-cells = <0>;			\
+    wait-ms = <10>;				\
+    tap-ms = <10>;				\
+    bindings = <BINDINGS>;			\
+  };
+  /*
+#define MODTAP_SHORTCUT(NAME, BINDINGS)		\
+  NAME: NAME {					  \
+    compatible = "zmk,behavior-hold-tap";	  \
+    label = ZMK_MACRO_STRINGIFY(NAME);		  \
+    #binding-cells = <2>;			  \
+    tapping-term-ms = <TAPPING_TERM>;		  \
+    flavor = "tap-preferred";			  \
+    quick-tap-ms = <QUICK_TAP_TERM>;		      \
+    require-prior-idle-ms = <QUICK_TAP_TERM>;	      \
+    bindings = <&kp>, <BINDINGS>;		      \
+  };
+  */
+  
+  shortcuts {
+
+    // General
+    //SHORTCUT(hyp, &kp LA(LC(LS(LGUI))))
+    
+    // FFXIV
+
+    SHORTCUT(xiv_sprint, &macro_tap &kp LA(LC(LS(F10))))
+    SHORTCUT(xiv_inv, &macro_tap &kp NUMBER_7)
+    SHORTCUT(xiv_armory, &macro_tap &kp NUMBER_8)
+    SHORTCUT(xiv_saddle, &macro_tap &kp NUMBER_9)
+    SHORTCUT(xiv_emote, &macro_tap &kp NUMBER_0)
+    SHORTCUT(xiv_alarm, &macro_tap &kp F7)
+    SHORTCUT(xiv_timers, &macro_tap &kp F8)
+    SHORTCUT(xiv_charcfg, &macro_tap &kp F9)
+    SHORTCUT(xiv_syscfg, &macro_tap &kp F10)
+    SHORTCUT(xiv_mnt_guide, &macro_tap &kp F)
+    SHORTCUT(xiv_minion_guide, &macro_tap &kp C)
+    SHORTCUT(xiv_hunt_log, &macro_tap &kp H)
+    SHORTCUT(xiv_quest_log, &macro_tap &kp T)
+    SHORTCUT(xiv_duty, &macro_tap &kp N)
+    SHORTCUT(xiv_craft_log, &macro_tap &kp B)
+    SHORTCUT(xiv_gather_log, &macro_tap &kp M)
+    SHORTCUT(xiv_ui_toggle, &macro_tap &kp F11)
+    SHORTCUT(xiv_fish_log, &macro_tap &kp W)
+    SHORTCUT(xiv_fish_guide, &macro_tap &kp V)
+    SHORTCUT(xiv_food, &macro_tap &kp LA(LC(LS(F))))
+    SHORTCUT(xiv_sheathe, &macro_tap &kp LA(LC(LS(PERIOD))))
+    SHORTCUT(xiv_return, &macro_tap &kp LC(R))
+    SHORTCUT(xiv_mount, &macro_tap &kp LS(V))
+    SHORTCUT(xiv_map, &macro_tap &kp LA(M))
+  };
+};

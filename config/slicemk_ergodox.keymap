@@ -25,10 +25,10 @@
 		  label = "Dvorak";
 			bindings = <
 				&bootloader
-				&lt FUNCI ESCAPE &kp NUMBER_1               &kp NUMBER_2   &kp NUMBER_3         &kp NUMBER_4         &kp NUMBER_5 &kp GRAVE                       &none              &kp NUMBER_6        &kp NUMBER_7   &kp NUMBER_8   &kp NUMBER_9    &kp NUMBER_0        &kp PRINTSCREEN
-				&kp TAB                &kp SINGLE_QUOTE           &kp COMMA      &kp PERIOD           &kp P                &kp Y        &none                           &kp HOME           &kp F               &kp G          &kp C          &kp R           &kp L               &kp BACKSLASH
-				&mt LEFT_GUI BACKSPACE &mt LEFT_SHIFT A           &kp O          &lt BRACKETS E &lt BRACKETS U &kp I                                                           &kp D               &kp H          &kp T          &kp N           &mt RIGHT_SHIFT S   &kp SLASH
-				&none                  &mt LEFT_CONTROL SEMICOLON &mt LEFT_ALT Q &kp J                &lt NUMPAD K   &kp X        &mt LC(LS(LA(LEFT_GUI))) RETURN &kp DELETE         &kp B               &kp M          &kp W          &mt RIGHT_ALT V &mt RIGHT_CONTROL Z &kp MINUS
+			&lt FUNCI ESCAPE       &kp NUMBER_1               &kp NUMBER_2   &kp NUMBER_3         &kp NUMBER_4         &kp NUMBER_5 &kp GRAVE                       &none              &kp NUMBER_6        &kp NUMBER_7   &kp NUMBER_8   &kp NUMBER_9    &kp NUMBER_0        &kp PRINTSCREEN
+			&kp TAB                &kp SINGLE_QUOTE           &kp COMMA      &kp PERIOD           &kp P                &kp Y        &none                           &kp HOME           &kp F               &kp G          &kp C          &kp R           &kp L               &kp BACKSLASH
+			&mt LEFT_GUI BACKSPACE &mt LEFT_SHIFT A           &kp O          &lt BRACKETS E &lt BRACKETS U &kp I                                                           &kp D               &kp H          &kp T          &kp N           &mt RIGHT_SHIFT S   &kp SLASH
+			&none                  &mt LEFT_CONTROL SEMICOLON &mt LEFT_ALT Q &kp J                &lt NUMPAD K   &kp X        &mt LC(LS(LA(LEFT_GUI))) RETURN &kp DELETE         &kp B               &kp M          &kp W          &mt RIGHT_ALT V &mt RIGHT_CONTROL Z &kp MINUS
 				&none                  &none                      &kp LEFT_ALT   &none                &caps_word                                                                                               &kp LEFT_ARROW &kp DOWN_ARROW &kp UP_ARROW    &kp RIGHT_ARROW     &to QWERTY
 				                                                                                                           &kp LG(P)    &kp LG(RETURN)                  &kp LG(LEFT_ARROW) &kp LG(RIGHT_ARROW)
 				                                                                                      &kp SPACE            &kp LEFT_ALT &lt MEDIA C_PLAY_PAUSE    &kp PAGE_UP        &kp SPACE           &kp RETURN
@@ -53,14 +53,14 @@
 		  label = "FFXIV";
 			bindings = <
 				&bootloader
-				&none &none &none &none &none &none &none &none &none &none &none &none &none &none
-				&none &none &none &none &none &none &none &none &none &none &none &none &none &none
-				&none &none &none &none &none &none             &none &none &none &none &none &none
-				&none &none &none &none &none &none &none &none &none &none &none &none &none &none
-				&none &none &none &none &none                         &none &none &none &none &to DVORAK
-				                              &none &none &none &none
-				                        &none &none &none &none &none &none
-				                                    &none &none
+				&lt FFXIVII ESCAPE &trans           &trans       &trans           &trans &trans &kp LA(LS(LC(F10))) &kp NUMBER_7  &kp NUMBER_8 &kp NUMBER_9 &kp NUMBER_0 &kp F7 &kp F8 &kp F9
+				&trans             &kp SINGLE_QUOTE &kp COMMA    &kp PERIOD       &kp P  &kp Y  &kp LA(LS(LC(Y)))   &trans        &kp F        &kp G        &kp C        &kp R  &kp L  &kp F10
+				&kp BACKSPACE      &kp A            &kp O        &kp E            &kp U  &kp I                                    &kp D        &kp H        &kp T        &kp N  &kp S  &trans
+				&kp LEFT_SHIFT     &kp SEMICOLON    &kp Q        &kp J            &kp K  &kp X  &kp F1              &kp F11       &kp B        &kp M        &kp W        &kp V  &kp Z  &kp MINUS
+				&kp LEFT_CONTROL   &kp GRAVE        &kp LEFT_ALT &kp LEFT_BRACKET &kp RIGHT_BRACKET                                            &trans       &trans       &trans &trans &to DVORAK
+			                                                                                            &none  &none     &kp LA(LC(LS(F)))      &kp LA(LC(LS(K)))
+			                                                                                  &kp SPACE &kp F2 &kp LA(M) &kp LA(LC(LS(PERIOD))) &kp BACKSPACE &trans
+		                                                                                                           &kp LS(V) &kp LC(R)
 			>;
 		};
 		layer_3 {
@@ -112,7 +112,7 @@
 				&trans  &none &none &none &none  &none  &none  &none  &none  &none        &none           &none        &none &trans
 				&kp TAB &none &none &none &none  &none  &none  &none  &none  &kp NUMBER_7 &kp NUMBER_8    &kp NUMBER_9 &none &trans
 				&trans  &none &none &none &none  &none                &none  &kp NUMBER_4 &kp NUMBER_5    &kp NUMBER_6 &none &trans
-				&none   &none &none &none &none  &none  &trans &none  &none  &kp NUMBER_1 &kp NUMBER_3    &kp NUMBER_3 &none &trans
+				&none   &none &none &none &none  &none  &trans &none  &none  &kp NUMBER_1 &kp NUMBER_2    &kp NUMBER_3 &none &trans
 				&none   &none &none &none &none                              &kp NUMBER_0 &kp RIGHT_ARROW &none        &none &to DVORAK
 				                                 &trans &trans &trans &trans
 				                          &trans &trans &trans &trans &trans &trans
