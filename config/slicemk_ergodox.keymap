@@ -18,6 +18,9 @@
 #define MEDIA 8
 #define FNF 9
 
+#define HYPER "LC(LS(LA(LGUI)))"
+
+// (set-face-attribute 'default nil :font "FiraCode Nerd Font Mono" :height 90)
 
 / {
 	keymap {
@@ -29,7 +32,7 @@
 			&lt FUNCI ESCAPE       &kp NUMBER_1               &kp NUMBER_2   &kp NUMBER_3         &kp NUMBER_4         &kp NUMBER_5 &kp GRAVE                       &none              &kp NUMBER_6        &kp NUMBER_7   &kp NUMBER_8   &kp NUMBER_9    &kp NUMBER_0        &kp PRINTSCREEN
 			&kp TAB                &kp SINGLE_QUOTE           &kp COMMA      &kp PERIOD           &kp P                &kp Y        &none                           &kp HOME           &kp F               &kp G          &kp C          &kp R           &kp L               &kp BACKSLASH
 			&mt LEFT_GUI BACKSPACE &mt LEFT_SHIFT A           &kp O          &lt BRACKETS E &lt BRACKETS U &kp I                                                           &kp D               &kp H          &kp T          &kp N           &mt RIGHT_SHIFT S   &kp SLASH
-			&none                  &mt LEFT_CONTROL SEMICOLON &mt LEFT_ALT Q &kp J                &lt NUMPAD K   &kp X        &mt LC(LS(LA(LEFT_GUI))) RETURN &kp DELETE         &kp B               &kp M          &kp W          &mt RIGHT_ALT V &mt RIGHT_CONTROL Z &kp MINUS
+			&none                  &mt LEFT_CONTROL SEMICOLON &mt LEFT_ALT Q &kp J                &lt NUMPAD K   &kp X        &mt HYPER RETURN &kp DELETE         &kp B               &kp M          &kp W          &mt RIGHT_ALT V &mt RIGHT_CONTROL Z &kp MINUS
 				&none                  &none                      &kp LEFT_ALT   &none                &caps_word                                                                                               &kp LEFT_ARROW &kp DOWN_ARROW &kp UP_ARROW    &kp RIGHT_ARROW     &to QWERTY
 				                                                                                                           &kp LG(P)    &kp LG(RETURN)                  &kp LG(LEFT_ARROW) &kp LG(RIGHT_ARROW)
 				                                                                                      &kp SPACE            &kp LEFT_ALT &lt MEDIA C_PLAY_PAUSE    &kp PAGE_UP        &kp SPACE           &kp RETURN
