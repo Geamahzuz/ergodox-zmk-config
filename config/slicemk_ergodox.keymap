@@ -18,7 +18,7 @@
 #define MEDIA 8
 #define FNF 9
 
-#define HYPER "LC(LS(LA(LGUI)))"
+#define HYPER LC(LS(LA(LGUI)))
 
 // (set-face-attribute 'default nil :font "FiraCode Nerd Font Mono" :height 90)
 
