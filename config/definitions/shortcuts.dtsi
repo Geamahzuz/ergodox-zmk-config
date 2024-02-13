@@ -17,7 +17,7 @@
 /*     quick-tap-ms = <200>;				\ */
 /*     bindings = <BINDINGS>;			\ */
 /*   }; */
-/* #define TAPDANCE(NAME, TAP1, TAP2)		\ */
+#define TAPDANCE(NAME, TAP1, TAP2)		\
   NAME: NAME {					\
     compatible = "zmk,behavior-tap-dance";		\
     label = ZMK_MACRO_STRINGIFY(NAME);		\
