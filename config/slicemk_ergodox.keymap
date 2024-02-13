@@ -29,15 +29,15 @@
 		layer_0 {
 		  label = "Dvorak";
 			bindings = <
-				&bootloader
+			&bootloader
 			&lt FUNCI ESC &kp N1         &kp N2         &kp N3         &kp N4         &kp N5 &kp GRAVE        &none       &kp N6 &kp N7   &kp N8   &kp N9     &kp N0      &kp PSCRN
 			&kp TAB       &kp APOS       &kp COMMA      &kp PERIOD     &kp P          &kp Y  &td_cxv          &kp HOME    &kp F  &kp G    &kp C    &kp R      &kp L       &kp BACKSLASH
 			&mt LGUI BSPC &mt LSHFT A    &kp O          &lt BRACKETS E &lt BRACKETS U &kp I                               &kp D  &kp H    &kp T    &kp N      &mt RSHFT S &kp SLASH
 			&none         &mt LCTRL SEMI &mt LEFT_ALT Q &kp J          &lt NUMPAD K   &kp X  &mt HYPER RETURN &mt MEH DEL &kp B  &kp M    &kp W    &mt RALT V &mt RCTRL Z &kp MINUS
 			&none         &none          &kp LEFT_ALT   &none          &caps_word                                                &kp LEFT &kp DOWN &kp UP     &kp RIGHT   &to QWERTY
-				                                                             &kp LG(P) &kp LG(RETURN)         &kp LG(LEFT) &kp LG(RIGHT)
-				                                                   &kp SPACE &kp LALT  &lt MEDIA C_PLAY_PAUSE &kp PG_UP    &kp SPACE &kp RETURN
-				                                                                       &mt LS(LG(X)) Z        &kp PG_DN
+				                                                             &td_menus &kp LG(RETURN)  &kp LG(LEFT) &kp LG(RIGHT)
+				                                                   &kp SPACE &kp LALT  &td_media       &kp PG_UP    &kp SPACE &kp RETURN
+				                                                                       &mt LS(LG(X)) Z &kp PG_DN
 			>;
 		};
 		layer_1 {
