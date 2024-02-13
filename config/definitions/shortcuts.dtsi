@@ -29,6 +29,7 @@
     bindings = <&kp>, <BINDINGS>;		      \
   };
   */
+#define MEDIA 8
 // td_menus options
 #define runlauncher LG(LC(P))
 #define fmenu LG(LS(P))
