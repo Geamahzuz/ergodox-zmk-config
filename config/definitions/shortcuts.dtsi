@@ -8,6 +8,23 @@
     tap-ms = <10>;				\
     bindings = <BINDINGS>;			\
   };
+/* #define HOLDTAP(NAME, TAP, HOLD)		\ */
+/*   NAME: NAME {					\ */
+/*     compatible = "zmk,behavior-hold-tap";		\ */
+/*     label = ZMK_MACRO_STRINGIFY(NAME);		\ */
+/*     #binding-cells = <2>;			\ */
+/*     flavor = "tap-preferred"; */
+/*     quick-tap-ms = <200>;				\ */
+/*     bindings = <BINDINGS>;			\ */
+/*   }; */
+/* #define TAPDANCE(NAME, TAP1, TAP2)		\ */
+  NAME: NAME {					\
+    compatible = "zmk,behavior-tap-dance";		\
+    label = ZMK_MACRO_STRINGIFY(NAME);		\
+    #binding-cells = <0>;			\
+    tapping-term-ms = <200>;				\
+    bindings = <TAP1>, <TAP2>;			\
+  };
   /*
 #define MODTAP_SHORTCUT(NAME, BINDINGS)		\
   NAME: NAME {					  \
@@ -26,6 +43,10 @@
 
     // General
     //SHORTCUT(hyp, &kp LA(LC(LS(LGUI))))
+
+    // Tap Dance
+
+    TAPDANCE(td_cxv, &mt LC(C) LC(X), &kp LC(V))
 
     // FFXIV
 

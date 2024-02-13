@@ -31,7 +31,7 @@
 			bindings = <
 				&bootloader
 			&lt FUNCI ESC &kp N1         &kp N2         &kp N3         &kp N4         &kp N5 &kp GRAVE        &none       &kp N6 &kp N7   &kp N8   &kp N9     &kp N0      &kp PSCRN
-			&kp TAB       &kp APOS       &kp COMMA      &kp PERIOD     &kp P          &kp Y  &none            &kp HOME    &kp F  &kp G    &kp C    &kp R      &kp L       &kp BACKSLASH
+			&kp TAB       &kp APOS       &kp COMMA      &kp PERIOD     &kp P          &kp Y  &td_cxv          &kp HOME    &kp F  &kp G    &kp C    &kp R      &kp L       &kp BACKSLASH
 			&mt LGUI BSPC &mt LSHFT A    &kp O          &lt BRACKETS E &lt BRACKETS U &kp I                               &kp D  &kp H    &kp T    &kp N      &mt RSHFT S &kp SLASH
 			&none         &mt LCTRL SEMI &mt LEFT_ALT Q &kp J          &lt NUMPAD K   &kp X  &mt HYPER RETURN &mt MEH DEL &kp B  &kp M    &kp W    &mt RALT V &mt RCTRL Z &kp MINUS
 			&none         &none          &kp LEFT_ALT   &none          &caps_word                                                &kp LEFT &kp DOWN &kp UP     &kp RIGHT   &to QWERTY
