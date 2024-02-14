@@ -29,9 +29,11 @@
     bindings = <&kp>, <BINDINGS>;		      \
   };
   */
+//Needed Layer definitions
 #define MEDIA 8
+
 // td_menus options
-#define runlauncher LG(LC(P))
+#define runlauncher LG(P)
 #define fmenu LG(LS(P))
 #define keepassmenu LG(LA(P))
 #define passmenu LG(LC(P))
