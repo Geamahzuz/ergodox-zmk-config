@@ -4,8 +4,8 @@
     compatible = "zmk,behavior-macro";		\
     label = ZMK_MACRO_STRINGIFY(NAME);		\
     #binding-cells = <0>;			\
-    wait-ms = <10>;				\
-    tap-ms = <10>;				\
+    wait-ms = <1>;				\
+    tap-ms = <1>;				\
     bindings = <BINDINGS>;			\
   };
 #define TAPDANCE(NAME, TAP1, TAP2)		\
@@ -38,6 +38,9 @@
 #define keepassmenu LG(LA(P))
 #define passmenu LG(LC(P))
 // end td_menus
+//td_close
+#define close LG(LS(X))
+// end td_close
 // td_media options
 #define play C_PLAY_PAUSE
 #define next C_NEXT
@@ -53,6 +56,7 @@
     TAPDANCE(td_cxv, &mt LC(X) LC(C), &kp LC(V))
     TAPDANCE(td_menus, &mt fmenu runlauncher, &mt passmenu keepassmenu)
     TAPDANCE(td_media, &lt MEDIA play, &mt previous next)
+    TAPDANCE(td_close, &none, &mt close)
     //TAPDANCE(td_)
 
     // FFXIV
