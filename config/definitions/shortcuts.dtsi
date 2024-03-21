@@ -56,7 +56,7 @@
     TAPDANCE(td_cxv, &mt LC(X) LC(C), &kp LC(V))
     TAPDANCE(td_menus, &mt fmenu runlauncher, &mt passmenu keepassmenu)
     TAPDANCE(td_media, &lt MEDIA play, &mt previous next)
-    TAPDANCE(td_close, &none, &mt close)
+    //TAPDANCE(td_close, &none, &mt close)
     //TAPDANCE(td_)
 
     // FFXIV
